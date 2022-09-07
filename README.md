@@ -1,6 +1,6 @@
-#IS114 GIT & GITHUB
+# IS114 GIT & GITHUB
 
-##4a
+## 4a
 
 | Fullt navn | URL |
 | --- | --- |
@@ -11,4 +11,4 @@
 | Sebastian Garcia Jessen | https://github.com/Spankyduck |
 | Tahir Aslan | https://github.com/aslnthir |
 
-##4b
+## 4b
