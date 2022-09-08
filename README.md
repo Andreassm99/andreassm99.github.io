@@ -5,7 +5,7 @@
 | Fullt navn | URL |
 | --- | --- |
 | Andreas Mørkesdal| https://github.com/Andreassm99 |
-| Navn | https://github.com/Maxlee136 |
+| Max Lee | https://github.com/Maxlee136 |
 | Olai Bergh Oldeide | https://github.com/RobertRegen |
 | Navn | https://github.com/FrostyAqua37 |
 | Sebastian Garcia Jessen | https://github.com/Spankyduck |
