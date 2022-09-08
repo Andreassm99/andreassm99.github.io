@@ -13,4 +13,4 @@
 
 ## 4b
 Hei
-halla bro 
+halla bro hva skjer
