@@ -10,7 +10,9 @@
 | Eivind Chen | https://github.com/FrostyAqua37 |
 | Sebastian Garcia Jessen | https://github.com/Spankyduck |
 | Tahir Aslan| https://github.com/aslnthir |
+| Sebastian Jessen | https://github.com/Spankyduck |
+
 
 ## 4b
 Hei
-halla bro
+halla bro hva skjer
