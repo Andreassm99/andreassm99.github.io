@@ -9,7 +9,7 @@
 | Olai Bergh Oldeide | https://github.com/RobertRegen |
 | Eivind Chen | https://github.com/FrostyAqua37 |
 | Sebastian Garcia Jessen | https://github.com/Spankyduck |
-| Navn | https://github.com/aslnthir |
+| Tahir Aslan| https://github.com/aslnthir |
 
 ## 4b
 Hei
