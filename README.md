@@ -12,3 +12,4 @@
 | Navn | https://github.com/aslnthir |
 
 ## 4b
+jørgen dreyer er ikke helt heterofil
