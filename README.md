@@ -12,7 +12,7 @@
 | Sebastian Jessen | https://github.com/Spankyduck |
 
 ## 4b
-<<<<<<< HEAD
+
 Den største utfordringen vi hadde med oppgaven var mangel på kunnskap, vi kunne lite om Git og GITHUB. Store deler av arbeidsprossesen gikk dermed ut på å lære om dette. Forståelsen i gruppa varierer, så for den totale forståelsen vil vi gi oss selv en 2.
 =======
 
