@@ -12,4 +12,4 @@
 | Navn | https://github.com/aslnthir |
 
 ## 4b
-
+Hei
