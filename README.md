@@ -8,7 +8,7 @@
 | Max Lee | https://github.com/Maxlee136 |
 | Olai Bergh Oldeide | https://github.com/RobertRegen |
 | Eivind Chen | https://github.com/FrostyAqua37 |
-| Tahir Aslan| https://github.com/aslnthir |
+| Tahir Aslan | https://github.com/aslnthir |
 | Sebastian Jessen | https://github.com/Spankyduck |
 
 ## 4b
