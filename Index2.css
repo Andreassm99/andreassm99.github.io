@@ -1,0 +1,32 @@
+
+.tabell{
+    height:41px;
+    width:800px;
+}
+.tabell{
+border:solid 1px;
+border-collapse:collapse;
+margin:0px;
+
+}
+.tabell:nth-child(odd) {
+    background: #bf0b30;
+}
+.tabell:nth-child(even) {
+    background: #ffffff;
+}
+
+.stars{
+    background: #002768;
+    width: 350px;
+    height:300px;
+    margin-top: -574.5px;
+    margin-left:0px;
+}
+p {
+    color:#fffeff;
+    font-size:25px;
+    line-height:5px;
+    letter-spacing: 40px;
+    text-align:center;
+}
