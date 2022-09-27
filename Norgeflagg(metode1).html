@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>pflagg1</title>
+</head>
+<body style="background-color: greenyellow;">
+
+
+	<!--- her har jeg satt hele flagget i et DIV-element for å ha muligheten til å nytte litt JS for ekstra dynamikk i dokumentet. Selve flagget er forøvrig bygget opp av P-elementer som ikke overlapper hverandre. Dermed ble det flere elementer enn om jeg hadde brukt overlappende, og samtidig mer repetisjon på å skrive style-attributter ---->
+
+	<div id="flagget" style="position: absolute; top: 100px; left: 100px;" onmouseover="flaggFun1()" onmouseleave="flaggFun2()">
+
+	<!--- øverste lag av flagget -->
+
+		<p style="position: absolute; top: 0px; left: 0px; margin: 0px; background-color: rgb(186, 12, 47); width: 120px; height: 120px;">&nbsp</p>
+		<p style="position: absolute; top: 0px; left: 120px; margin: 0px; background-color: rgb(255, 255, 255); width: 20px; height: 120px;" >&nbsp</p>
+		<p style="position: absolute; top: 0px; left: 140px; margin: 0px; background-color: rgb(0, 32, 91); width: 40px; height: 120px;">&nbsp</p>
+		<p style="position: absolute; top: 0px; left: 180px; margin: 0px; background-color: rgb(255, 255, 255); width: 20px; height: 120px;" >&nbsp</p>
+		<p style="position: absolute; top: 0px; left: 200px; margin: 0px; background-color: rgb(186, 12, 47); width: 240px; height: 120px;">&nbsp</p>
+
+	<!--- andre lag av flagget --->
+
+		<p style="position: absolute; top: 120px; left: 0px; margin: 0px; background-color: rgb(255, 255, 255); width: 140px; height: 20px;">&nbsp</p>
+		<p style="position: absolute; top: 120px; left: 140px; margin: 0px; background-color: rgb(0, 32, 91); width: 40px; height: 20px; ">&nbsp</p>
+		<p style="position: absolute; top: 120px; left: 180px; margin: 0px; background-color: rgb(255, 255, 255); width: 260px; height: 20px; ">&nbsp</p>
+	<!--- tredje lag av flagget --->
+
+		<p style="position: absolute; top: 140px; left: 0px; margin: 0px; background-color: rgb(0, 32, 91); width: 440px; height: 40px; ">&nbsp</p>
+
+	<!--- fjerde lag av flagget --->
+
+		<p style="position: absolute; top: 180px; left: 0px; margin: 0px; background-color: rgb(255, 255, 255); width: 140px; height: 20px; ">&nbsp</p>
+		<p style="position: absolute; top: 180px; left: 140px; margin: 0px; background-color: rgb(0, 32, 91); width: 40px; height: 20px; ">&nbsp</p>
+		<p style="position: absolute; top: 180px; left: 180px; margin: 0px; background-color: rgb(255, 255, 255); width: 260px; height: 20px;">&nbsp</p>
+
+	<!--- femte lag av flagget --->
+
+		<p style="position: absolute; top: 200px; left: 0px; margin: 0px; background-color: rgb(186, 12, 47); width: 120px; height: 120px;">&nbsp</p>
+		<p style="position: absolute; top: 200px; left: 120px; margin: 0px; background-color: rgb(255, 255, 255); width: 20px; height: 120px;">&nbsp</p>
+		<p style="position: absolute; top: 200px; left: 140px; margin: 0px; background-color: rgb(0, 32, 91); width: 40px; height: 120px;">&nbsp</p>
+		<p style="position: absolute; top: 200px; left: 180px; margin: 0px; background-color: rgb(255, 255, 255); width: 20px; height: 120px;">&nbsp</p>
+		<p style="position: absolute; top: 200px; left: 200px; margin: 0px; background-color: rgb(186, 12, 47); width: 240px; height: 120px;" >&nbsp</p>
+	</div>
+
+	<!--- under er et DIV-element for informasjon om flagg og historie(?), som vises ved å holde musepekeren over flagget -->
+
+	<div id="info" style="display: none; position: absolute; top: 450px; left: 100px ">
+		generell info om Norges flagg + historie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	</div>
+
+
+	<script>
+		function flaggFun1(){
+			document.getElementById('info').style.display = "block";
+		}
+
+		function flaggFun2(){
+			document.getElementById("info").style.display = "none"; 
+		}
+	</script>
+
+</body>
+</html>
