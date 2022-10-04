@@ -5,12 +5,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>pflagg1</title>
 </head>
-<body style="background-color: greenyellow;">
+
+<body style="background-color: lightskyblue;">
+
+
+	<h1 style="text-align: center;">Norges flagg</h1>
 
 
 	<!--- her har jeg satt hele flagget i et DIV-element for å ha muligheten til å nytte litt JS for ekstra dynamikk i dokumentet. Selve flagget er forøvrig bygget opp av P-elementer som ikke overlapper hverandre. Dermed ble det flere elementer enn om jeg hadde brukt overlappende, og samtidig mer repetisjon på å skrive style-attributter ---->
 
-	<div id="flagget" style="position: absolute; top: 100px; left: 100px;" onmouseover="flaggFun1()" onmouseleave="flaggFun2()">
+	<div id="flagget" style="position: relative; width: 440px; margin: 0 auto; " onmouseover="flaggFun1()" onmouseleave="flaggFun2()">
 
 	<!--- øverste lag av flagget -->
 
@@ -42,23 +46,35 @@
 		<p style="position: absolute; top: 200px; left: 140px; margin: 0px; background-color: rgb(0, 32, 91); width: 40px; height: 120px;">&nbsp</p>
 		<p style="position: absolute; top: 200px; left: 180px; margin: 0px; background-color: rgb(255, 255, 255); width: 20px; height: 120px;">&nbsp</p>
 		<p style="position: absolute; top: 200px; left: 200px; margin: 0px; background-color: rgb(186, 12, 47); width: 240px; height: 120px;" >&nbsp</p>
+		<br>
+		<p style="position: relative; top: 300px; text-align: center; ">hold musepekeren over flagget!</p>
 	</div>
+
 
 	<!--- under er et DIV-element for informasjon om flagg og historie(?), som vises ved å holde musepekeren over flagget -->
 
-	<div id="info" style="display: none; position: absolute; top: 450px; left: 100px ">
-		generell info om Norges flagg + historie!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	<div id="info" style="display: none; position: relative; background-color: ghostwhite; top: 350px; width: 440px; margin: auto; padding: 25px; ">
+		<p style="text-align: center;">kilder: <br> https://www.flagcolorcodes.com/norway, https://no.wikipedia.org/wiki/Norges_flagg</p>
 	</div>
 
 
+
+
 	<script>
+
+		// funksjon FlaggFun1 viser info-P-element når musepekeren holdes over flagget
+
 		function flaggFun1(){
 			document.getElementById('info').style.display = "block";
 		}
 
+		// funksjon FlaggFun2 skjuler info-P-element når musepekeren ikke holdes over flagget
+
 		function flaggFun2(){
 			document.getElementById("info").style.display = "none"; 
 		}
+
+		
 	</script>
 
 </body>
