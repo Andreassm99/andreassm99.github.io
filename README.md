@@ -14,7 +14,7 @@ Prosessen rundt implementering og bruk av Github har vært krevende men veldig l
 Lett og sette seg inn i du bruker så og si bare <p> elementer i html til å tegne flagget. Så bruker man en stil attribut til å posisjonere, samt høyden og bredden på hver individuelle flagg. Ulempen med å bruke denne metoden er at den er tidkrevende og du kan ikke bruke den på alle typer flagg. F.eks kan en ikke lage et mer vanskelig eller detaljert flagg eller et med bilde
 
 CSS flag 
-Nokså enkel men forskjellen er at du bruker \<style> i hodet til dokumentet og da definerer css der. Metoden krever en bedre forståelse for css. Fordelen er at du også kan lage flagg med f.eks bilde i midten. Ulempen med denne metoden er at det er mer praktisk å ha css elementene i egen fil. 
+Nokså enkel men forskjellen er at du bruker "style" i hodet til dokumentet og da definerer css der. Metoden krever en bedre forståelse for css. Fordelen er at du også kan lage flagg med f.eks bilde i midten. Ulempen med denne metoden er at det er mer praktisk å ha css elementene i egen fil. 
 
 Canvas metode 
 Veldig simpel metode å sette opp strekene på, hvis man klarer å lære seg koordinatene, så bruker man mindre tid. Skal en endre på størrelsen eller plasseringen på flagget, så må man endre koordinatene på alle strekene, og det kan kreve mye tid, hvis man har mange streker i flagget sitt.
