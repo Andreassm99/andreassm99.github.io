@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--flagg metode 2-->
+    <style>
+        body{
+          text-align: center;
+        }
+        #redstyle  {
+           background-color: red;
+           width: 400px; 
+           margin:0 auto; 
+           height: 100px; 
+           position: relative;
+           margin: 0 auto;
+      }
+      .whitestyle {
+          background-color: rgb(237, 230, 230); 
+          width: 400px;
+           margin:0 auto; 
+           height: 100px;
+          
+        }
+      </style>
+      <style>
+        h1 {
+          position: center; 
+          right: -450px;
+          color: black;
+          font-family: 'Brandon Text', Helvetica, Arial;
+          font-size: 60px;
+          font-weight: 700px;
+          line-height: 56px;
+          background-color: white;
+          padding: 0px;
+          display: inline; 
+        }
+        </style>
+        <h1>Storbritannias flagg</h1>
+          <canvas id="Norsk-flagg" width="1500px" height="600px"></canvas>
+          <script>
+          var getId3 = document.getElementById('Norsk-flagg');
+           var getIdContext3  = getId3.getContext('2d');
+         
+           getIdContext3.fillStyle ='#002868';
+           getIdContext3.fillRect(500,200,500,300); 
+           
+           getIdContext3.beginPath();
+           getIdContext3.moveTo(500, 200);
+           getIdContext3.lineTo(1000, 500);
+           getIdContext3.lineWidth = 40;
+        
+              // Farge til linje
+              getIdContext3.strokeStyle = 'white';
+              getIdContext3.stroke();
+        
+              getIdContext3.beginPath();
+              getIdContext3.moveTo(500, 500);
+              getIdContext3.lineTo(1000, 195);
+              getIdContext3.lineWidth = 40;
+        
+              // Farge til linje
+              getIdContext3.strokeStyle = 'white';
+              getIdContext3.stroke();
+        
+              getIdContext3.beginPath();
+              getIdContext3.moveTo(500, 500);
+              getIdContext3.lineTo(1000, 195);
+              getIdContext3.lineWidth = 15;
+        
+              // Farge til linje
+              getIdContext3.strokeStyle = '#bf0b30';
+              getIdContext3.stroke();
+        
+              getIdContext3.beginPath();
+              getIdContext3.moveTo(500, 200);
+              getIdContext3.lineTo(1000, 500);
+              getIdContext3.lineWidth = 15;
+        
+              // Farge til linje
+              getIdContext3.strokeStyle = '#bf0b30';
+              getIdContext3.stroke();
+        
+              getIdContext3.fillStyle ='white';
+              getIdContext3.fillRect(723,200,50,300); 
+        
+              getIdContext3.fillStyle ='white';
+              getIdContext3.fillRect(500,324,500,50); 
+        
+              getIdContext3.fillStyle ='#bf0b30';
+              getIdContext3.fillRect(733,200,30,300); 
+        
+              getIdContext3.fillStyle ='#bf0b30';
+              getIdContext3.fillRect(500,334,500,30); 
+              // Hvit farge rundt flaget
+              getIdContext3.fillStyle ='white';
+              getIdContext3.fillRect(500,500,500,21); 
+        
+              getIdContext3.fillStyle ='white';
+              getIdContext3.fillRect(480,180,550,21); 
+        
+              getIdContext3.fillStyle ='white';
+              getIdContext3.fillRect(490,200,10,300); 
+        
+              getIdContext3.fillStyle ='white';
+              getIdContext3.fillRect(1000,200,10,300); 
+              
+        
+        
+        </script>
+</head>
+<body>
+    <h1 style="text-align: center;">Norges flagg</h1>
+
+
+	<!--- her har jeg satt hele flagget i et DIV-element for å ha muligheten til å nytte litt JS for ekstra dynamikk i dokumentet. Selve flagget er forøvrig bygget opp av P-elementer som ikke overlapper hverandre. Dermed ble det flere elementer enn om jeg hadde brukt overlappende, og samtidig mer repetisjon på å skrive style-attributter ---->
+
+	<div id="flagget" style="position: relative; width: 440px; margin: 0 auto; " onmouseover="flaggFun1()" onmouseleave="flaggFun2()">
+
+	<!--- øverste lag av flagget -->
+
+		<p style="position: absolute; top: 0px; left: 0px; margin: 0px; background-color: rgb(186, 12, 47); width: 120px; height: 120px;">&nbsp</p>
+		<p style="position: absolute; top: 0px; left: 120px; margin: 0px; background-color: rgb(255, 255, 255); width: 20px; height: 120px;" >&nbsp</p>
+		<p style="position: absolute; top: 0px; left: 140px; margin: 0px; background-color: rgb(0, 32, 91); width: 40px; height: 120px;">&nbsp</p>
+		<p style="position: absolute; top: 0px; left: 180px; margin: 0px; background-color: rgb(255, 255, 255); width: 20px; height: 120px;" >&nbsp</p>
+		<p style="position: absolute; top: 0px; left: 200px; margin: 0px; background-color: rgb(186, 12, 47); width: 240px; height: 120px;">&nbsp</p>
+
+	<!--- andre lag av flagget --->
+
+		<p style="position: absolute; top: 120px; left: 0px; margin: 0px; background-color: rgb(255, 255, 255); width: 140px; height: 20px;">&nbsp</p>
+		<p style="position: absolute; top: 120px; left: 140px; margin: 0px; background-color: rgb(0, 32, 91); width: 40px; height: 20px; ">&nbsp</p>
+		<p style="position: absolute; top: 120px; left: 180px; margin: 0px; background-color: rgb(255, 255, 255); width: 260px; height: 20px; ">&nbsp</p>
+	<!--- tredje lag av flagget --->
+
+		<p style="position: absolute; top: 140px; left: 0px; margin: 0px; background-color: rgb(0, 32, 91); width: 440px; height: 40px; ">&nbsp</p>
+
+	<!--- fjerde lag av flagget --->
+
+		<p style="position: absolute; top: 180px; left: 0px; margin: 0px; background-color: rgb(255, 255, 255); width: 140px; height: 20px; ">&nbsp</p>
+		<p style="position: absolute; top: 180px; left: 140px; margin: 0px; background-color: rgb(0, 32, 91); width: 40px; height: 20px; ">&nbsp</p>
+		<p style="position: absolute; top: 180px; left: 180px; margin: 0px; background-color: rgb(255, 255, 255); width: 260px; height: 20px;">&nbsp</p>
+
+	<!--- femte lag av flagget --->
+
+		<p style="position: absolute; top: 200px; left: 0px; margin: 0px; background-color: rgb(186, 12, 47); width: 120px; height: 120px;">&nbsp</p>
+		<p style="position: absolute; top: 200px; left: 120px; margin: 0px; background-color: rgb(255, 255, 255); width: 20px; height: 120px;">&nbsp</p>
+		<p style="position: absolute; top: 200px; left: 140px; margin: 0px; background-color: rgb(0, 32, 91); width: 40px; height: 120px;">&nbsp</p>
+		<p style="position: absolute; top: 200px; left: 180px; margin: 0px; background-color: rgb(255, 255, 255); width: 20px; height: 120px;">&nbsp</p>
+		<p style="position: absolute; top: 200px; left: 200px; margin: 0px; background-color: rgb(186, 12, 47); width: 240px; height: 120px;" >&nbsp</p>
+		<br>
+		<p style="position: relative; top: 300px; text-align: center; ">hold musepekeren over flagget!</p>
+	</div>
+
+
+	<!--- under er et DIV-element for informasjon om flagg og historie(?), som vises ved å holde musepekeren over flagget -->
+
+	<div id="info" style="display: none; position: relative; background-color: ghostwhite; top: 350px; width: 440px; margin: auto; padding: 25px; ">
+		<p style="text-align: center;">kilder: <br> https://www.flagcolorcodes.com/norway, https://no.wikipedia.org/wiki/Norges_flagg</p>
+	</div>
+
+
+
+
+</body>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<body style="float: center;">
+    <h1>(2)-elementet og “id” og ”class” attributter</h1>
+    <h2>indonesia flagg</h2>
+   
+    <p id="redstyle" ></p>
+    
+    <p class="whitestyle"></p>
+   </body>
+
+</html>
