@@ -1,3 +1,6 @@
+<head>
+<meta charset="UTF-8">
+</head>
 Prosjektbeskrivelse 
 
 Da vi først fikk oppgaven brukte vi de første gruppemøtene på å kartlegge oppgaven. Vi jobbet da med å forstå oppgaven samt bryte ned prosjektet og få en anelse av hva resultatet skal bli. Vi tok utgangspunkt i karlsens prosjekt nedbrytning som går ut på og ta et større prosjekt og dele det inn i flere mer håndterlige biter, med andre ord en såkalt “top-down” tilnærming. Denne oppdelingen kalles også for Work Breakdown Structure eller forkortet som (WBS) (Karlsen, s89 ). Når vi bruker denne tilnærmingen ser vi først etter de større komponentene. Deretter bryter vi dem ned til mer håndterlige deler. Oppgaven består av å lage 3 flagg, men tre forskjellige måter. Oppgaven krever også grunnleggende kunnskap om bruk av github, samt programmeringsspråkene HTML, CSS og Javascript. Det er derfor viktig at gruppa kollektivt forsto hvordan vi skulle bruke disse verktøyene og at vi hadde en felles plan for utførelse. Det er her et såkalt prosjekt rammeverk som scrum eller kanban kommer inn. vi bestemte oss for og bruke kanban. Kanban er metode som opprinnelig kommer fra Japan og beskriver måten bil selskapet Toyota brukte samlebånd prosesser innenfor sin bedrift. (karlsen s. 352) Kanban er et enkelt system som går ut på og dele inn en tavle i hovedsakelig tre deler. 
