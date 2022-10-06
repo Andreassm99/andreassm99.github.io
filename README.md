@@ -11,7 +11,7 @@ Vi brukte kanban i form av github projects. Arbeidsoppgavene ble satt opp og del
 Prosessen rundt implementering og bruk av Github har vært krevende men veldig lærerikt. Vi har alle lært mye om de forskjellige metodene og svakheter og ulemper
 
 <P> Flagg (metode A)
-Lett og sette seg inn i du bruker så og si bare <p> elementer i html til å tegne flagget. Så bruker man en stil attribut til å posisjonere, samt høyden og bredden på hver individuelle flagg. Ulempen med å bruke denne metoden er at den er tidkrevende og du kan ikke bruke den på alle typer flagg. F.eks kan en ikke lage et mer vanskelig eller detaljert flagg eller et med bilde
+Lett og sette seg inn i du bruker så og si bare "p" elementer i html til å tegne flagget. Så bruker man en stil attribut til å posisjonere, samt høyden og bredden på hver individuelle flagg. Ulempen med å bruke denne metoden er at den er tidkrevende og du kan ikke bruke den på alle typer flagg. F.eks kan en ikke lage et mer vanskelig eller detaljert flagg eller et med bilde
 
 CSS flag 
 Nokså enkel men forskjellen er at du bruker "style" i hodet til dokumentet og da definerer css der. Metoden krever en bedre forståelse for css. Fordelen er at du også kan lage flagg med f.eks bilde i midten. Ulempen med denne metoden er at det er mer praktisk å ha css elementene i egen fil. 
